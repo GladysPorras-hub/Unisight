@@ -1,0 +1,348 @@
+{
+ "sdg4": {
+  "title": "What If? — Quality Education (SDG 4)",
+  "story": "After the Storm: Will Every Student Return?",
+  "total": 3,
+  "start": "intro",
+  "disclaimer": "Luma and its characters are fictional; the emergency and education barriers are based on documented real-world risks.",
+  "source": "UNICEF — Learning Interrupted",
+  "source_url": "https://www.unicef.org/reports/learning-interrupted",
+  "nodes": {
+   "intro": {
+    "kind": "intro",
+    "emoji": "🌧️",
+    "scene": "A flooded rural school as storm clouds clear. Students and teachers wait at a temporary shelter.",
+    "title": "After the Storm",
+    "text": "You are the president of Luma, responsible for the emergency education recovery plan. A severe storm has damaged schools, roads and electricity in rural districts. The storm has passed, but thousands of students cannot return to class. Your first decisions will shape the recovery.",
+    "choices": [
+     {
+      "label": "START THE STORY",
+      "next": "n1",
+      "consequence": ""
+     }
+    ]
+   },
+   "n1": {
+    "emoji": "🗺️",
+    "scene": "Emergency cabinet room with a map showing urban and rural school damage.",
+    "title": "Emergency budget",
+    "text": "The emergency budget cannot immediately fund every repair. Equitable allocation considers need, not only the number of buildings.",
+    "choices": [
+     {
+      "label": "Repair the largest urban schools first",
+      "next": "n2a",
+      "consequence": "More students may return quickly in dense areas, but isolated rural communities stay without nearby classrooms and transport, and trust in the plan falls in remote areas."
+     },
+     {
+      "label": "Prioritize the most isolated and vulnerable communities",
+      "next": "n2b",
+      "consequence": "Fewer students return immediately, but remote learners are less likely to be left behind. Urban repairs proceed in phases."
+     }
+    ]
+   },
+   "n2a": {
+    "emoji": "🏟️",
+    "scene": "A crowded urban gym used as a temporary classroom. The rural school is still out of reach.",
+    "title": "Temporary learning",
+    "text": "Families demand immediate lessons while repairs continue.",
+    "choices": [
+     {
+      "label": "Use one large temporary learning center only",
+      "next": "n3a",
+      "consequence": "Some students receive lessons, but transport, disability access and distance keep others from attending."
+     },
+     {
+      "label": "Create several small community learning spaces and mobile teaching teams",
+      "next": "n3b",
+      "consequence": "Coverage improves across neighborhoods, but coordination and teacher scheduling become harder."
+     }
+    ]
+   },
+   "n2b": {
+    "emoji": "🏘️",
+    "scene": "A rural community hall with teachers, families and students.",
+    "title": "Teachers and student support",
+    "text": "Buildings are being repaired, but some teachers have lost housing and students lack books, devices or transport.",
+    "choices": [
+     {
+      "label": "Spend most remaining funds on devices and online classes",
+      "next": "n3c",
+      "consequence": "Connected students can keep learning, but communities without reliable electricity or internet are excluded."
+     },
+     {
+      "label": "Fund teacher support, printed learning kits, transport and safe temporary spaces",
+      "next": "n3d",
+      "consequence": "More learners can take part offline and teachers can return, while advanced digital access develops more slowly."
+     }
+    ]
+   },
+   "n3a": {
+    "emoji": "🚪",
+    "scene": "A school gate reopening, with a long queue of students.",
+    "title": "Reopening plan",
+    "text": "Repairs are nearly done. How should schools reopen?",
+    "choices": [
+     {
+      "label": "A rapid reopening with limited support",
+      "next": "end1",
+      "consequence": "Doors open fast, but there is little support for students who fell behind."
+     },
+     {
+      "label": "A phased reopening with teacher training, accessible materials and learning assessments",
+      "next": "end2",
+      "consequence": "Reopening is slower, but teachers are trained and learning is checked."
+     }
+    ]
+   },
+   "n3b": {
+    "emoji": "🚪",
+    "scene": "Small learning spaces across several neighborhoods.",
+    "title": "Reopening plan",
+    "text": "Repairs are nearly done. How should schools reopen?",
+    "choices": [
+     {
+      "label": "A rapid reopening with limited support",
+      "next": "end1",
+      "consequence": "Doors open fast, but there is little support for students who fell behind."
+     },
+     {
+      "label": "A phased reopening with teacher training, accessible materials and learning assessments",
+      "next": "end2",
+      "consequence": "Reopening is slower, but teachers are trained and learning is checked."
+     }
+    ]
+   },
+   "n3c": {
+    "emoji": "📊",
+    "scene": "A dashboard of reopened buildings, with blank spaces for disconnected districts.",
+    "title": "How will you measure success?",
+    "text": "The online plan is running. What counts as success?",
+    "choices": [
+     {
+      "label": "Count only the buildings reopened",
+      "next": "end3",
+      "consequence": "Progress looks good on paper, while disconnected students are not tracked."
+     },
+     {
+      "label": "Also track attendance, learning recovery and participation of remote and disadvantaged students",
+      "next": "end1",
+      "consequence": "You see the gaps, but the online-first plan makes them hard to close."
+     }
+    ]
+   },
+   "n3d": {
+    "emoji": "📊",
+    "scene": "Printed learning kits and a progress board in a rural school.",
+    "title": "How will you measure success?",
+    "text": "Offline support is working. What counts as success?",
+    "choices": [
+     {
+      "label": "Count only the buildings reopened",
+      "next": "end1",
+      "consequence": "Schools reopen, but access gaps stay hidden."
+     },
+     {
+      "label": "Also track attendance, learning recovery and participation of remote and disadvantaged students",
+      "next": "end2",
+      "consequence": "You can see who is returning and who still needs help."
+     }
+    ]
+   },
+   "end1": {
+    "kind": "end",
+    "emoji": "🏫",
+    "scene": "Reopened buildings with empty desks.",
+    "title": "Reopened, but not for everyone",
+    "text": "Buildings reopen but access gaps remain."
+   },
+   "end2": {
+    "kind": "end",
+    "emoji": "🌈",
+    "scene": "Students of different ages and abilities learning together.",
+    "title": "A connected recovery",
+    "text": "Schools reopen with resilient plans, teacher support and inclusive access."
+   },
+   "end3": {
+    "kind": "end",
+    "emoji": "📵",
+    "scene": "A dark classroom while screens glow elsewhere.",
+    "title": "Lessons interrupted again",
+    "text": "Online-only planning leaves disconnected students behind."
+   }
+  },
+  "takeaway": "SDG 4 requires equitable access, actual learning, safe facilities and qualified teachers, not just reopened buildings."
+ },
+ "sdg5": {
+  "title": "What If? — Gender Equality (SDG 5)",
+  "story": "A Seat at the Table: Who Shapes the Recovery?",
+  "total": 3,
+  "start": "intro",
+  "disclaimer": "Solana and its characters are fictional; the story is evidence-informed and educational.",
+  "source": "United Nations — Goal 5",
+  "source_url": "https://sdgs.un.org/goals/goal5",
+  "nodes": {
+   "intro": {
+    "kind": "intro",
+    "emoji": "🌊",
+    "scene": "A community meeting where only a few voices are heard, while women wait outside with practical knowledge and proposals.",
+    "title": "A Seat at the Table",
+    "text": "You are head of the recovery council in Solana, a coastal community rebuilding after a major emergency. The council decides on safety, housing, jobs and public resources, but women and girls are being left out of important meetings. The community must rebuild. But can a recovery plan be fair if half the community is not heard?",
+    "choices": [
+     {
+      "label": "START THE STORY",
+      "next": "n1",
+      "consequence": ""
+     }
+    ]
+   },
+   "n1": {
+    "emoji": "🏛️",
+    "scene": "The recovery council chamber, with the community waiting outside.",
+    "title": "Who is on the council?",
+    "text": "Urgent decisions are being made, but women and girls have no meaningful representation. Participation means influence, not a symbolic seat.",
+    "choices": [
+     {
+      "label": "Keep the existing council to make decisions faster",
+      "next": "n2a",
+      "consequence": "Decisions may come quickly, but they risk overlooking the safety, care, livelihood and access needs of excluded residents."
+     },
+     {
+      "label": "Create an inclusive council with meaningful participation by women and affected groups",
+      "next": "n2b",
+      "consequence": "More perspectives shape the plan, although consultation and transparent decision-making take time."
+     }
+    ]
+   },
+   "n2a": {
+    "emoji": "🛖",
+    "scene": "A temporary shelter entrance and a public service desk.",
+    "title": "Safety and protection",
+    "text": "Reports show that some residents do not feel safe using temporary shelters and services.",
+    "choices": [
+     {
+      "label": "Treat safety as an individual issue and keep current arrangements",
+      "next": "n3a",
+      "consequence": "Barriers may stay unreported and some residents avoid services."
+     },
+     {
+      "label": "Consult affected residents and set up confidential reporting, trained staff and safe access procedures",
+      "next": "n3b",
+      "consequence": "Reporting and access may improve, but staff training, privacy and follow-up resources are needed."
+     }
+    ]
+   },
+   "n2b": {
+    "emoji": "🧰",
+    "scene": "A reconstruction job fair and a distribution center.",
+    "title": "Resources and opportunity",
+    "text": "Paid reconstruction jobs, grants and equipment are being shared through informal networks that may exclude women.",
+    "choices": [
+     {
+      "label": "Distribute opportunities through existing informal contacts",
+      "next": "n3c",
+      "consequence": "Resources may reach familiar groups quickly, but access can stay unequal and opaque."
+     },
+     {
+      "label": "Publish transparent eligibility rules and ensure equal access to jobs, grants and services",
+      "next": "n3d",
+      "consequence": "Decisions become more accountable and access can widen, while outreach and monitoring are needed to reach excluded residents."
+     }
+    ]
+   },
+   "n3a": {
+    "emoji": "🧾",
+    "scene": "A closing report on the recovery.",
+    "title": "After the first response",
+    "text": "The emergency phase is ending. What happens next?",
+    "choices": [
+     {
+      "label": "Fund ongoing prevention, confidential support and accountability mechanisms",
+      "next": "end2",
+      "consequence": "Safety becomes part of the recovery system."
+     },
+     {
+      "label": "Treat the initial response as complete",
+      "next": "end1",
+      "consequence": "Gaps stay in place once attention moves on."
+     }
+    ]
+   },
+   "n3b": {
+    "emoji": "🧾",
+    "scene": "A closing report on the recovery.",
+    "title": "After the first response",
+    "text": "The emergency phase is ending. What happens next?",
+    "choices": [
+     {
+      "label": "Fund ongoing prevention, confidential support and accountability mechanisms",
+      "next": "end2",
+      "consequence": "Safety becomes part of the recovery system."
+     },
+     {
+      "label": "Treat the initial response as complete",
+      "next": "end3",
+      "consequence": "The consultation happened, but nothing keeps it going."
+     }
+    ]
+   },
+   "n3c": {
+    "emoji": "📈",
+    "scene": "A ledger of aid, with a column for who received it left empty.",
+    "title": "How will you measure fairness?",
+    "text": "Aid is flowing. How will you judge the result?",
+    "choices": [
+     {
+      "label": "Measure only the amount of aid distributed",
+      "next": "end1",
+      "consequence": "The totals look strong, and the exclusion goes unseen."
+     },
+     {
+      "label": "Also examine who received it, who participated and whether access was fair",
+      "next": "end3",
+      "consequence": "You find the gaps, but nothing requires anyone to fix them."
+     }
+    ]
+   },
+   "n3d": {
+    "emoji": "📈",
+    "scene": "A public board showing who received jobs and grants.",
+    "title": "How will you measure fairness?",
+    "text": "Transparent rules are in place. How will you judge the result?",
+    "choices": [
+     {
+      "label": "Measure only the amount of aid distributed",
+      "next": "end3",
+      "consequence": "Rules were published, but without monitoring they are not followed through."
+     },
+     {
+      "label": "Also examine who received it, who participated and whether access was fair",
+      "next": "end2",
+      "consequence": "You can see who gained access and act where it falls short."
+     }
+    ]
+   },
+   "end1": {
+    "kind": "end",
+    "emoji": "🏗️",
+    "scene": "Rebuilt streets with half the community missing from view.",
+    "title": "Rebuilding without every voice",
+    "text": "Infrastructure returns, but exclusion persists."
+   },
+   "end2": {
+    "kind": "end",
+    "emoji": "🤝",
+    "scene": "A neighborhood meeting where women lead alongside others.",
+    "title": "Shared leadership, stronger recovery",
+    "text": "Participation, safety and transparent access become part of the recovery system."
+   },
+   "end3": {
+    "kind": "end",
+    "emoji": "📜",
+    "scene": "A signed plan with no budget attached.",
+    "title": "Promises without follow-through",
+    "text": "Inclusive meetings take place, but no budget, accountability or implementation follows."
+   }
+  },
+  "takeaway": "SDG 5 requires rights, safety, equal opportunity, shared responsibility and meaningful leadership."
+ }
+}

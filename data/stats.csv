@@ -1,0 +1,16 @@
+goal,group,indicator,year,value,unit,type,source,url,note
+4,Children and youth out of school,Total,2024,273,million,estimate,UNESCO,https://www.unesco.org/en/education/view/outofschool,2024 estimate. Upper-secondary-age youth are the largest group.
+4,Children and youth out of school,Primary age,2024,79,million,estimate,UNESCO,https://www.unesco.org/en/education/view/outofschool,
+4,Children and youth out of school,Lower-secondary age,2024,64,million,estimate,UNESCO,https://www.unesco.org/en/education/view/outofschool,
+4,Children and youth out of school,Upper-secondary age,2024,130,million,estimate,UNESCO,https://www.unesco.org/en/education/view/outofschool,
+4,"Completion rates (global, 2024)",Primary,2024,88,%,official,"UN Statistics Division, SDG Report 2025",https://unstats.un.org/sdgs/report/2025/Goal-04/,Global scope. Entering school does not guarantee finishing each level.
+4,"Completion rates (global, 2024)",Lower secondary,2024,78,%,official,"UN Statistics Division, SDG Report 2025",https://unstats.un.org/sdgs/report/2025/Goal-04/,
+4,"Completion rates (global, 2024)",Upper secondary,2024,60,%,official,"UN Statistics Division, SDG Report 2025",https://unstats.un.org/sdgs/report/2025/Goal-04/,
+4,"Minimum proficiency, primary students (2019 data)",Reading,2019,58,%,official,"UN Statistics Division, SDG Report 2025",https://unstats.un.org/sdgs/report/2025/Goal-04/,"These figures refer to 2019, not 2025. Assessments and country coverage vary."
+4,"Minimum proficiency, primary students (2019 data)",Mathematics,2019,44,%,official,"UN Statistics Division, SDG Report 2025",https://unstats.un.org/sdgs/report/2025/Goal-04/,
+4,Students hit by climate-related school disruption,Students affected,2025,171,million,official,"UNICEF, Learning Interrupted",https://www.unicef.org/reports/learning-interrupted,UNICEF's 2025 analysis across 106 countries or territories. Not a permanent annual rate.
+5,Legal restrictions on women's work,Countries with at least one restriction,2024,47,% of 131 countries with data (61 countries),official,"United Nations, Goal 5",https://sdgs.un.org/goals/goal5,"The 131 countries are those with available data, not every country in the world."
+5,Child marriage,Women 20-24 married before 18,latest,19,%,official,"United Nations, Gender Equality",https://www.un.org/sustainabledevelopment/gender-equality/,Latest data in the UN's 2025 Goal 5 overview.
+5,Female genital mutilation,Girls and women affected,latest,230,million (more than),official,"United Nations, Gender Equality",https://www.un.org/sustainabledevelopment/gender-equality/,Latest data in the UN's 2025 Goal 5 overview.
+5,Unpaid care and domestic work,Women and girls vs men,2023,2.5,times more hours per day,official,"United Nations, Goal 5 monitoring",https://sdgs.un.org/goals/goal5,Average daily hours on domestic and care work.
+5,Women in national parliaments,Share of seats,1 Jan 2025,27.2,%,official,"United Nations, Gender Equality",https://www.un.org/sustainabledevelopment/gender-equality/,Reference date: 1 January 2025.
